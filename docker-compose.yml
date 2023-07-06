@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  
+  clock:
+    image: ghcr.io/twohoursonelife/clock:latest
+    build: .
+    restart: always
+    env_file:
+      - .env
+    # logging:
+    #   driver: awslogs
+    #   options:
+    #     awslogs-region: "us-east-1"
+    #     awslogs-create-group: "true"
+    #     awslogs-group: "clock"
+    #     awslogs-stream: "clock"
+  
+  mongo:
+    image: mongo
