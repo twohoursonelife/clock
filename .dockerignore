@@ -1,0 +1,7 @@
+.env
+example.env
+.github
+.vscode
+Dockerfile
+README.md
+__pycache__
