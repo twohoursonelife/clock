@@ -14,3 +14,7 @@ A wise developer once said:
 Discord's just a bit shit like that, I get it.
 
 Oh! I'm also a utility to make sure you get to bed on time.
+
+## Thanks to
+- [Axiol bot](https://github.com/GitBolt/axiol) for inspiration
+- mig_ and risvh for moral support
